@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="OFFFREQ original illustrated record sleeve">
+ <defs>
+  <filter id="texture" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".51" numOctaves="2" seed="8" stitchTiles="stitch" result="noise"/><feColorMatrix in="noise" type="saturate" values="0" result="gray"/><feComponentTransfer in="gray"><feFuncA type="linear" slope=".10"/></feComponentTransfer></filter>
+  <clipPath id="frame"><rect width="800" height="800"/></clipPath>
+ </defs>
+ <rect width="800" height="800" fill="#bfc4c9"/>
+ <g clip-path="url(#frame)">
+<rect x="0" y="382" width="800" height="418" fill="#d9bcaf"/><circle cx="490" cy="385" r="285" fill="#f3e5c2"/>
+<path d="M0 375L800 375M0 411L800 411M0 447L800 447M0 483L800 483M0 519L800 519M0 555L800 555M0 591L800 591" stroke="#b8695f" stroke-width="11"/>
+<rect x="46" y="49" width="156" height="33" fill="#242f36"/><text x="57" y="72" fill="#f6e7c9" font-size="16" font-family="Arial" font-weight="700" letter-spacing="2">LUMA VALE</text>
+<text x="42" y="166" fill="#263239" font-size="100" font-family="Arial" font-weight="900" letter-spacing="-9">ALMOST</text><text x="40" y="254" fill="#263239" font-size="116" font-family="Georgia" font-style="italic" letter-spacing="-6">morning.</text>
+<circle cx="490" cy="385" r="286" fill="none" stroke="#3c4a50" stroke-width="1"/><path d="M0 375H800" stroke="#263239" stroke-width="10"/>
+</g>
+ <rect width="800" height="800" filter="url(#texture)" opacity=".45" pointer-events="none"/>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="2"><text x="42" y="758" fill="#263239">OFFFREQ / OF.001</text><text x="760" y="758" text-anchor="end" fill="#263239">33⅓ — STEREO</text></g>
+</svg>

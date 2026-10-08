@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="OFFFREQ original illustrated record sleeve">
+ <defs>
+  <filter id="texture" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".51" numOctaves="2" seed="8" stitchTiles="stitch" result="noise"/><feColorMatrix in="noise" type="saturate" values="0" result="gray"/><feComponentTransfer in="gray"><feFuncA type="linear" slope=".10"/></feComponentTransfer></filter>
+  <clipPath id="frame"><rect width="800" height="800"/></clipPath>
+ </defs>
+ <rect width="800" height="800" fill="#27234b"/>
+ <g clip-path="url(#frame)">
+<circle cx="426" cy="384" r="138" fill="#ffbd91"/>
+<g fill="#a96f9a" opacity=".95"><ellipse cx="420" cy="190" rx="105" ry="154"/><ellipse cx="420" cy="570" rx="105" ry="154"/><ellipse cx="230" cy="380" rx="154" ry="105"/><ellipse cx="610" cy="380" rx="154" ry="105"/></g>
+<g fill="#e5d8ad"><ellipse cx="286" cy="254" rx="90" ry="142" transform="rotate(-47 286 254)"/><ellipse cx="554" cy="519" rx="90" ry="142" transform="rotate(-47 554 519)"/><ellipse cx="286" cy="519" rx="90" ry="142" transform="rotate(47 286 519)"/><ellipse cx="554" cy="254" rx="90" ry="142" transform="rotate(47 554 254)"/></g>
+<circle cx="426" cy="384" r="116" fill="#ed835e"/><circle cx="426" cy="384" r="29" fill="#27234b"/>
+<text x="40" y="116" font-family="Arial" font-size="81" font-weight="900" letter-spacing="-7" fill="#efebda">MIDNIGHT</text><text x="43" y="205" font-family="Georgia" font-size="105" font-style="italic" letter-spacing="-4" fill="#efebda">bloom.</text>
+</g>
+ <rect width="800" height="800" filter="url(#texture)" opacity=".45" pointer-events="none"/>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="2"><text x="42" y="758" fill="#efebda">OFFFREQ / OF.001</text><text x="760" y="758" text-anchor="end" fill="#efebda">33⅓ — STEREO</text></g>
+</svg>

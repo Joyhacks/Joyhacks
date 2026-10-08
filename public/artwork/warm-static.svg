@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="OFFFREQ original illustrated record sleeve">
+ <defs>
+  <filter id="texture" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".51" numOctaves="2" seed="8" stitchTiles="stitch" result="noise"/><feColorMatrix in="noise" type="saturate" values="0" result="gray"/><feComponentTransfer in="gray"><feFuncA type="linear" slope=".10"/></feComponentTransfer></filter>
+  <clipPath id="frame"><rect width="800" height="800"/></clipPath>
+ </defs>
+ <rect width="800" height="800" fill="#f0b599"/>
+ <g clip-path="url(#frame)">
+<circle cx="580" cy="255" r="290" fill="#a34232"/><circle cx="580" cy="255" r="241" fill="#edc8a3"/><circle cx="580" cy="255" r="202" fill="#a34232"/><circle cx="580" cy="255" r="168" fill="#eea889"/><circle cx="580" cy="255" r="126" fill="#8b372e"/><circle cx="580" cy="255" r="79" fill="#f4c8b0"/><circle cx="580" cy="255" r="22" fill="#8b372e"/>
+<rect x="0" y="390" width="800" height="204" fill="#382a26"/><text x="40" y="489" fill="#f1bc9c" font-family="Arial" font-size="124" font-weight="900" letter-spacing="-10">WARM</text><text x="35" y="582" fill="#f1bc9c" font-family="Georgia" font-size="125" font-style="italic" letter-spacing="-6">static.</text><text x="47" y="647" fill="#382a26" font-size="19" font-family="Arial" font-weight="700" letter-spacing="7">OTIS NERA / SIGNALS IN THE DARK</text>
+</g>
+ <rect width="800" height="800" filter="url(#texture)" opacity=".45" pointer-events="none"/>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="2"><text x="42" y="758" fill="#372924">OFFFREQ / OF.001</text><text x="760" y="758" text-anchor="end" fill="#372924">33⅓ — STEREO</text></g>
+</svg>
